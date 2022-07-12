@@ -1,8 +1,9 @@
 let _name = prompt('What is your name?');
-let _age = prompt('How old are you?');
-console.log(` ${_name}  ${_age} years old`);
-
+let _birthDate = prompt('What year were you born ?');
+console.log(` ${_name}  ${_birthDate}`);
+confirm(`Hi, ${_name}. You were born in ${_birthDate}, right?`)
 tmp = _name;
-_name = _age;
-_age = tmp;
-console.log(` ${_name}  ${_age} years old`);
+_name = _birthDate;
+_birthDate = tmp;
+console.log(` ${_name}  ${_birthDate}`);
+confirm(`Hi, ${_name}. You were born in ${_birthDate}, right?`)
